@@ -2,6 +2,7 @@ import React from 'react'
 import AuthorSection from '../../components/AuthorSection'
 import BannerSection from '../../components/BannerSection'
 import FeedSection from '../../components/FeedSection'
+import NewsletterSection from '../../components/NewsletterSection'
 import PageTemplate from '../../components/templates/PageTemplate'
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
         <BannerSection />
         <FeedSection />
         <AuthorSection />
+        <NewsletterSection />
     </PageTemplate>
   )
 }

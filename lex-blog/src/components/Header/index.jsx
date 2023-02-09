@@ -1,12 +1,15 @@
-import LexBlog from "../../assets/LexBlog.svg"
+import LexBlog from "../../assets/LexBlog.svg";
+import { StyledContainer } from "../../styles/grid";
 
 const Header = () => {
-  return (
-    <header>
-        <img src={LexBlog} alt="Logo Lex Blog" />
-        <button>Siga-nos</button>
-    </header>
-  )
-}
+   return (
+      <header>
+         <StyledContainer>
+            <img src={LexBlog} alt="Logo Lex Blog" />
+            <button>Siga-nos</button>
+         </StyledContainer>
+      </header>
+   );
+};
 
-export default Header
+export default Header;

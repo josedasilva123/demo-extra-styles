@@ -1,13 +1,15 @@
+import { StyledPostCard } from "./style"
+
 const PostCard = ({post}) => {
   return (
-    <li>
+    <StyledPostCard>
         <img src={post.img} alt={post.title} />
-        <div>
+        <div className="postContent">
             <span>{post.category}</span>
             <h3>{post.title}</h3>
             <a href="#">Leia mais</a>
         </div>
-    </li>
+    </StyledPostCard>
   )
 }
 

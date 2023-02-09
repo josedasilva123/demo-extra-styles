@@ -1,9 +1,13 @@
-const Footer = () => {
-  return (
-    <footer>
-        <p>&copy - Todos os direitos reservados - Lex Blog - 2022</p>
-    </footer>
-  )
-}
+import { StyledContainer } from "../../styles/grid";
 
-export default Footer
+const Footer = () => {
+   return (
+      <footer>
+         <StyledContainer>
+            <p>&copy; - Todos os direitos reservados - Lex Blog - 2022</p>
+         </StyledContainer>
+      </footer>
+   );
+};
+
+export default Footer;

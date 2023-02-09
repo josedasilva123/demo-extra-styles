@@ -1,11 +1,13 @@
+import { StyledAsidePostCard } from "./style";
+
 const AsidePostCard = ({ post }) => {
    return (
-      <li>
+      <StyledAsidePostCard>
          <a href="">
             <img src={post.img} alt={post.title} />
             <h3>{post.title}</h3>
          </a>
-      </li>
+      </StyledAsidePostCard>
    );
 };
 
